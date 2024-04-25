@@ -1,0 +1,39 @@
+body {
+  font-size: 10px;
+}
+
+h5 {
+  padding: 0 2em;
+}
+@media screen and (max-width: 500px) {
+  .tags {
+    flex-direction: column;
+    gap: 5px;
+  }
+  .checkboxes {
+    order: 0;
+  }
+  .submit {
+    padding: 4px 14px;
+    font-size: 1.3em;
+  }
+  #password-length {
+    padding: 4px 14px;
+    font-size: 1.3em;
+  }
+}
+@media screen and (max-width: 300px) {
+  .submit {
+    font-size: 1.1em;
+  }
+  #password-length {
+    font-size: 1.1em;
+  }
+  .main {
+    padding: 25px 8px;
+    gap: 15px;
+  }
+  h5{
+    font-size: 1.2em;
+  }
+}

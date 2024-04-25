@@ -1,0 +1,65 @@
+body {
+  font-size: 12px;
+}
+
+@media screen and (max-width: 1150px) {
+  body {
+    font-size: 10px;
+  }
+  .submit {
+    padding: 4px 7px;
+  }
+  #password-length {
+    padding: 4px 3px;
+  }
+  label {
+    gap: 4px;
+  }
+  .checkboxes {
+    gap: 0.3em;
+  }
+
+  .checkbox {
+    gap: 0.3em;
+  }
+}
+@media screen and (max-width: 900px) {
+  body {
+    font-size: 12px;
+  }
+  label {
+    gap: 4px;
+  }
+  .checkboxes {
+    gap: 0.3em;
+    flex-direction: column;
+    align-items: start;
+
+    order: -1;
+  }
+  .tags {
+    padding: 1.5em;
+    align-items: start;
+  }
+  .main {
+    padding: 2.5em;
+  }
+  .checkbox {
+    gap: 0.3em;
+    flex-direction: row-reverse;
+  }
+  .copy-button {
+    font-size: 1.5em;
+  }
+  .refresh-button {
+    font-size: 1.5em;
+  }
+  .generate-text {
+    width: 95%;
+    padding: 1em 1em;
+  }
+  .tags {
+    width: 95%;
+    padding: 1em 1em;
+  }
+}

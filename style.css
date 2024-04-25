@@ -1,0 +1,191 @@
+/* Importing the fonts from google fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dhurjati&family=Hedvig+Letters+Serif:opsz@12..24&family=Jersey+15&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Resetting the Css....... */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+/* setting the root values */
+:root {
+  --fs-h1: ;
+  --fs-h2: ;
+  --fs-h3: ;
+  --fs-h4: ;
+  --fs-h5: ;
+  --fs-h6: ;
+  --fs-p: ;
+  --fs-a: ;
+  --fs-span: ;
+  --main-color: ;
+  --bg-color: rgb(0, 0, 0);
+}
+
+/* Making font fit to size for multi screens with media query......... */
+
+/* setting the style for all headers and paragraph........ */
+h1 {
+  font-family: 'Jersey 15', sans-serif;
+  font-size: 5em;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+}
+h5 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.5em;
+  color: white;
+  text-align: center;
+  padding: 0 5em;
+}
+
+.main {
+  background-color: black;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4vw;
+  gap: 45px;
+}
+
+.tags {
+  background-color: white;
+  width: 85%;
+  padding: 1em;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#password-length {
+  padding: 8px 5px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  transition: color 1s, outline 1s;
+}
+#password-length:focus {
+  outline: 2px solid goldenrod;
+}
+
+#password-length::placeholder {
+  font-family: 'Oswald', sans-serif;
+}
+
+label {
+  font-family: 'Oswald', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  gap: 10px;
+  font-size: 1.2em;
+  color: rgb(1, 1, 1, 0.7);
+}
+
+.submit {
+  padding: 8px 15px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  color: rgb(1, 1, 1, 0.5);
+  transition: color 1s, outline 1s;
+}
+.submit:hover {
+  outline: 2px solid goldenrod;
+  color: rgb(1, 1, 1, 0.9);
+}
+
+.checkboxes {
+  display: flex;
+  gap: 1em;
+  font-size: 1.2em;
+}
+
+.checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+.generate-text {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  width: auto;
+  height: auto;
+  width: 85%;
+  padding: 1em 1em;
+  border-radius: 5px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.password-show {
+  color: rgba(0, 0, 0, 0.601);
+  letter-spacing: 2px;
+  overflow-wrap: break-word;
+  font-size: 1.3em;
+  width: 100%;
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 15px;
+}
+.copy-button {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0 15px;
+  cursor: pointer;
+  font-size: 1.3em;
+}
+.refresh-button {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0 15px;
+  font-size: 1.3em;
+  cursor: pointer;
+}
+.copy-button h6 {
+  font-family: 'Oswald', sans-serif;
+  color: rgba(0, 0, 0, 0.703);
+  transition: color 1s;
+}
+.copy-button i {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.3em;
+  transition: color 1s;
+}
+.copy-button:hover  {
+  opacity: .5;
+}
+.refresh-button h6 {
+  font-family: 'Oswald', sans-serif;
+  color: rgba(0, 0, 0, 0.703);
+  transition: color 1s;
+}
+.refresh-button i {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.3em;
+  transition: color 1s;
+}
+.refresh-button:hover  {
+  opacity: .5;
+}
+

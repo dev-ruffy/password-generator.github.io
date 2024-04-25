@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ruffy : Password Generator</title>
+    <!-- --------------------------------------------------- CSS File ------------------------------------------------ -->
+    <!-- Desktop Css -->
+    <link rel="stylesheet" href="style.css" />
+    
+    <!-- Tablet CSS -->
+    <link
+      rel="stylesheet"
+      href="tablet.css"
+      media="screen and (max-width: 1425px)"
+    />
+    <!-- Mini Tablet css -->
+    <link
+      rel="stylesheet"
+      href="miniTablet.css"
+      media="screen and (max-width: 900px)"
+    />
+    <!-- phone css -->
+    <link
+      rel="stylesheet"
+      href="phone.css"
+      media="screen and (max-width: 800px)"
+    />
+
+    <!-- Locomotive css link -->
+
+
+    <!-- Icons CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!-- --------------------------------------------------- CSS File ------------------------------------------------ -->
+  </head>
+  <body>
+    <!-- --------------------------------------------------- Website content --------------------------------------------- -->
+
+    <!-- Main Wrapper for locomotive Scroll.... -->
+    <div class="main" id="main">
+      <h1>Ruffy Password Generator</h1>
+      <h5>
+        Secure your digital life with one click. Fast, reliable, and
+        ultra-strong password generation. Safety made simple—because your online
+        security should be effortless.
+      </h5>
+
+      <div class="tags">
+        <input
+          type="text"
+          name="length"
+          id="password-length"
+          class="password-length"
+          placeholder="Enter password length"
+        />
+        <div class="checkboxes">
+          <label for="has-lower-character" class="checkbox"
+            >Has Lowercase?
+            <input
+              type="checkbox"
+              name="has-lower-character"
+              id="has-lower-character"
+              class="has-lower-character"
+            />
+          </label>
+          <label for="has-upper-character" class="checkbox"
+            >Has Uppercase?
+            <input
+              type="checkbox"
+              name="has-upper-character"
+              id="has-upeer-character"
+              class="has-upper-character"
+            />
+          </label>
+          <label for="has-number" class="checkbox"
+            >Has Number?
+            <input
+              type="checkbox"
+              name="has-number"
+              id="has-number"
+              class="has-number"
+            />
+          </label>
+          <label for="has-symbol" class="checkbox"
+            >Has Symbol?
+            <input
+              type="checkbox"
+              name="has-symbol"
+              id="has-symbol"
+              class="has-symbol"
+            />
+          </label>
+        </div>
+
+        <button type="submit" class="submit">Generate Password</button>
+      </div>
+      <div class="generate-text">
+        <div class="buttons">
+          <div class="refresh-button">
+            <i class="ri-refresh-line"></i>
+            <h6 class="refresh-link">Regenerate</h6>
+          </div>
+          <div class="copy-button">
+            <h6 class="copy-link">Copy to clipboard</h6>
+            <i class="ri-file-copy-line"></i>
+          </div>
+        </div>
+        <p class="password-show">Generate password will show here.......</p>
+      </div>
+    </div>
+
+    <!-- --------------------------------------------------- Website content ----------------------------------------------->
+
+    <!-- --------------------------------------------------- Script File ------------------------------------------------ -->
+
+    <!-- Locomotive scroll js -->
+
+    <!-- Javascript file... -->
+    <script src="script.js"></script>
+
+    <!-- --------------------------------------------------- Script File ------------------------------------------------ -->
+  </body>
+</html>
